@@ -16,6 +16,8 @@ point at the dvc-storage bucket using s3://;
 use the correct SeaweedFS S3 endpoint URL;
 be marked as the default remote.
 Push the tracked data. After the push, the dvc-storage bucket in the SeaweedFS Filer UI must contain at least one object under the files/md5/... prefix.
+
+
 ---
 
 ## Solution
