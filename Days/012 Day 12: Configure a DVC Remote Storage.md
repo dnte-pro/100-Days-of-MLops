@@ -55,5 +55,4 @@ dvc push
 
 ##### When you open Filer UI at the top of the page and then open the dvc-storage folder in thr buckets , you will find the pushed files
 
-![Picture](../Pictures/image.png)
-![Picture](https://github.com/dnte-pro/100-Days-of-MLops/blob/d3de4b1d8c18abbf76fb97764c19c9495c2867eb/Pictures/image.png)
+![SeaweedFS](https://github.com/user-attachments/assets/4b2eeb54-e768-4c7e-bbca-cee3807e2417)
