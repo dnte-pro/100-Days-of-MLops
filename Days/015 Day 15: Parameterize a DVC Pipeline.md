@@ -72,7 +72,7 @@ cat dvc.lock
 ```
 
 The updated parameters are stored in the dvc.lock 
-
+![dvc.lock](https://github.com/user-attachments/assets/dc96f866-369b-405a-a539-e818886cac95)
 
 
 ## What the task entails
