@@ -33,7 +33,7 @@ Verify the tag:
 ```bash
 git tag
 ```
-
+![](https://github.com/user-attachments/assets/b1d7dafa-5a17-43ce-8531-fc48150c62eb)
 
 2. Create the new branch v2-improved
 
@@ -50,6 +50,10 @@ Verify that you are on the new branch:
 git branch
 ```
 
+![v2-improved](https://github.com/user-attachments/assets/386e49a7-4a95-4502-b0c3-ac98cfea2106)
+
+
+
 3. Replace the tracked dataset with the v2 dataset
 Keep transactions_v2.csv intact, but copy its contents over the tracked dataset:
 
@@ -57,6 +61,9 @@ Keep transactions_v2.csv intact, but copy its contents over the tracked dataset:
 cp data/raw/transactions_v2.csv data/raw/transactions.csv
 ```
  
+![copy](https://github.com/user-attachments/assets/2152b260-5c29-47fb-9cc1-3d9d49b27230)
+
+
 The contents of the file transactions.csv changes.
 
 4. Update DVC tracking
@@ -99,3 +106,4 @@ To restore the v1 dvc-tracked data :
  ```
 
 The initial data/raw/transactions.csv is restored.
+![dvc-checkout](https://github.com/user-attachments/assets/c07f6920-3dd9-4a4a-809a-0d1dd392d46d)
