@@ -42,6 +42,7 @@ Do not modify the existing experiments:
         fraud-experiment
         ```
     4. Once the experiment is created and opened, click the three dots at the right and add any description.
+            ![image](https://github.com/user-attachments/assets/c3ee1224-0877-468b-89dd-56da37432358)
     5. Back at the experiments, click add new tags:
         - add new tag:
             - key:
@@ -61,4 +62,5 @@ Do not modify the existing experiments:
         - value: ```analytics```
 
 4. Ensure there are 4(Four) experiments in the experiment section
+![](https://github.com/user-attachments/assets/c8be143d-9d22-4089-8d70-693f7cb0caf1)
 
