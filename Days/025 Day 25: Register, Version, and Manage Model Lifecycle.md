@@ -58,8 +58,22 @@ Fraud detection model for xFusionCorp transaction monitoring.
 ```
 
 
+#### 5. Assign aliases
+
+Open version 1 and add the alias ```challenger```
+
+Open vrsion 2 and add alias ```champion```
 
 
+| Version | Alias      |
+| ------- | ---------- |
+| v1      | challenger |
+| v2      | champion   |
+
+>A common mistake is registering the improved run first. If that happens, it becomes Version 1 and the lab validator will fail because it expects:
+
+Here is how the model should look like
+![image](https://github.com/user-attachments/assets/55885d55-6958-4013-bd96-d8f96f4c56f0)
 
 
 
