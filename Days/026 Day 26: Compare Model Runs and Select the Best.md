@@ -47,3 +47,22 @@ predictor = ScaledPredictor(inner_model, mean, std)
 
 2. **TODO 2**
 
+Configure the configuration of the prediction inputs:
+```bash
+predictions = predictor.predict(None, inputs.values)
+inputs["prediction"] = predictions
+inputs.to_csv(OUTPUT_CSV, index=False)
+```
+
+
+3. Run the code 
+After proper file configuration run the file:
+```bash
+python3 /root/code/predict_with_preprocessing.py
+```
+
+After running the file, you should have:
+
+* a prediction column,
+* 10 prediction rows (plus the header),
+* /root/code/predictions.csv successfully created.
