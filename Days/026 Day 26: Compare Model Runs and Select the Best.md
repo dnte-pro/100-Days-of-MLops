@@ -20,3 +20,30 @@ A file at /root/code/predictions.csv with a header row.
 A prediction column in that CSV.
 The number of prediction rows equal to the number of input rows in /root/code/data/inputs.csv (ten).
 
+## Step-by-step addition
+
+This task is testing whether you know how to:
+
+- Load a model from the MLflow Model Registry using its alias (champion).
+- Use the provided wrapper (ScaledPredictor) around that model.
+- Generate predictions and save them to a CSV.
+
+1. **TODO 1**
+Load the champion model into inner_model.
+The TO DO 1 section should look like:
+```bash
+inner_model = mlflow.pyfunc.load_model(MODEL_URI)
+
+# Compute per-column mean and std from the pre-staged inputs, then
+# build the pyfunc wrapper around `inner_model`.
+inputs = pd.read_csv(INPUT_CSV)
+mean = inputs.values.mean(axis=0)
+std = inputs.values.std(axis=0)
+std[std == 0] = 1.0  # guard against division by zero on constant columns
+
+predictor = ScaledPredictor(inner_model, mean, std)
+
+```
+
+2. **TODO 2**
+
